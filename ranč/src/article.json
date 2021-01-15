@@ -1,0 +1,62 @@
+[
+    {"href": "foto/2019april.jpg",
+        "src": "foto/2019april_m.jpg",
+        "alt": "Západ slnka",
+        "datetime": "2019-04-01",
+        "time": "apríl 2019",
+        "title" : "Nesnívaj o svojom živote, ale ži svoj sen",
+        "text": ""
+
+
+    } ,
+    {
+        "href": "foto/kone-perseus1.jpg",
+        "src" : "foto/kone-perseus1_m.jpg" ,
+        "alt" :"Perzeus",
+        "datetime" :"2019-04-01",
+        "time": "apríl 2019",
+        "title" : "Na ranč prichádza Perzeus",
+        "text": "Nový úžasný kôň, ktorého sme si osvojili priamo z aktívneho mezinárodného Military sportu. Či krása v drezúre, prechádzky vo výške 170cm alebo vytrvalosť v teréne, to je Perzeus. Teraz, po spoľahlivo odpracovaných 18 rokoch si môže užívať konský raj na ranči. Ďalšie fotky nájdete v galérii."
+    },
+    {
+        "href": "foto/2019kravicka.jpg",
+        "src" : "foto/2019kravicka_m.jpg" ,
+        "alt" :"Kravička",
+        "datetime" :"2019-04-01",
+        "time": "apríl 2019",
+        "title" : "Obnovujeme aj mliečnu produkciu",
+        "text": "Na ranči sme privítali Jersey kravičku Barboru."
+    
+    },
+    {
+        "href": "foto/2018jesen.jpg",
+        "src" : "foto/2018jesen_m.jpg" ,
+        "alt" :"Jeseň 2018",
+        "datetime" :"2018-10-01",
+        "time": "október 2018",
+        "title" : "Opravené, upratané, oživené.",
+        "text": "Užívame si prírodu. Prajeme všetkým zdravie a lásku v srdci."
+    
+    },
+    {
+        "href": "foto/2018nakladne_auto.jpg",
+        "src" : "foto/2018nakladne_auto_m.jpg" ,
+        "alt" :"",
+        "datetime" :"2018-08-01",
+        "time": "október 2018",
+        "title" : "Pracanti aj s novým 6 kolesovým pomocníkom z roku 1954",
+        "text": ""
+    
+    },
+    {
+        "href": "foto/2018koniec_prenajmu.jpg",
+        "src" : "foto/2018koniec_prenajmu_m.jpg" ,
+        "alt" :"",
+        "datetime" :"2018-02-01",
+        "time": "február 2018",
+        "title" : "Ukončili sme prenajatie",
+        "text": "Máme opraty opäť vo vlastných rukách."
+    
+    }
+
+]

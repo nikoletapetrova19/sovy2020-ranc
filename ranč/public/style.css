@@ -1,0 +1,136 @@
+body {
+    display: grid;
+    grid-template-columns: auto max-content 800px minmax(min-content, 100px) auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    ". header header header ."
+    ". nav main partners ."
+    ". footer footer footer .";
+}
+
+header {
+    grid-area: header;
+}
+
+header div#language_flags {
+    grid-area: header;
+}
+header div#language_flags ul {
+    list-style-type: none;
+}
+
+nav {
+    grid-area: nav;
+}
+nav button.icon {
+    display: none;
+    margin-top: 10px;
+}
+nav ul#links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+main {
+    grid-area: main;
+    padding-left: 10px;
+}
+
+section#main_content section article.galery {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section#main_content section article.galery figure {
+    width: 150px;
+    text-align: center;
+    border: 1px black solid;
+    padding: 10px;
+    height: 150px;
+}
+
+section#main_content section article.galery figure figcaption {
+    padding: 10px;
+}
+
+aside#right_panel {
+    grid-area: partners;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        grid-template-columns: auto 100px 800px 100px auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-columns: minmax(min-content, max-content) auto;
+        grid-template-areas:
+                "header header"
+                "nav main"
+                "nav partners"
+                "footer footer";
+    }
+    nav ul#links {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        grid-template-columns: auto;
+        grid-template-areas:
+                "header"
+                "nav"
+                "main"
+                "partners"
+                "footer";
+    }
+    section#main_content section article.galery figure {
+        width: 100%;
+        border-bottom: 1px black solid;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        padding-bottom: 50px;
+    }
+    nav button.icon {
+        display: flex;
+    }
+    nav ul#links {
+        display: none;
+        flex-direction: column;
+    }
+
+}
+
+@media print {
+    body {
+        filter: grayscale(100%);
+    }
+
+    header {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+
+    aside#right_panel {
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<%- include("partials/head"); %>
+<body>
+	<header>
+		<%- include("partials/header"); %>
+	</header>
+	<nav>
+		<%- include("partials/nav", {menu, page, linkGenerator}); %>
+	</nav>
+
+	<main>
+		<H1 class="404alert">Stránka nenájdená !!!</H1>
+		<p>Skúste <a href="/">domovskú stránku</a>.</p>
+	</main>
+	<aside id="right_panel">
+		<%- include("partials/right_panel"); %>
+	</aside>
+
+	<footer>
+		&copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2020
+	</footer>
+</body>
+
+</html>

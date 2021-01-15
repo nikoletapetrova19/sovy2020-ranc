@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<%- include("partials/head"); %>
+<body>
+	<header>
+		<%- include("partials/header"); %>
+	</header>
+	<nav>
+		<button class="icon" onclick="hamburgerToogle()">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+		 </button>
+		<%- include("partials/nav", {menu, page, linkGenerator}); %>
+	</nav>
+
+	<main>
+		<%- include("pages/" + page); %>
+	</main>
+	<aside id="right_panel">
+		<%- include("partials/right_panel"); %>
+	</aside>
+
+	<footer>
+		&copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2020
+	</footer>
+	<script>
+		function hamburgerToogle() {
+		  let links = document.getElementById("links");
+		  if (links.style.display === "flex") {
+			links.style.display = "none";
+		  } else {
+			links.style.display = "flex";
+		  }
+		}
+		</script>
+</body>
+
+</html>
